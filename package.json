@@ -8,8 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hongkongkiwi/pimatic-apple-location.git"
+    "url": "https://github.com/hongkongkiwi/pimatic-apple-location.git"
   },
+  "homepage": "https://github.com/hongkongkiwi/pimatic-apple-location",
+  "private": false,
+  "main": "pimatic-apple-location.coffee",
+  "configSchema": "pimatic-apple-location-config-schema.coffee",
+  "files": [
+    "pimatic-apple-location.coffee",
+    "README.md",
+    "pimatic-apple-location-config-schema.coffee",
+    "device-config-schema.coffee"
+  ],
   "keywords": [
     "pimatic",
     "apple",
@@ -33,5 +43,12 @@
   },
   "devDependencies": {
     "chai": "^3.5.0"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
   }
 }
