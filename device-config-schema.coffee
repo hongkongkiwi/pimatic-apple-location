@@ -13,14 +13,6 @@ module.exports = {
         description: "Longitude of your home location"
         type: "number"
         default: 0
-      useGoogleMaps:
-        description: "Use the Google Maps API to get Route Informations?"
-        type: "boolean"
-        default: true
-      googleMapsApiKey:
-        description: "Google Maps Api Key"
-        type: "string"
-        default: "0"
       iCloudUser:
         description: "iCloud User"
         type: "string"
